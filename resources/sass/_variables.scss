@@ -1,7 +1,12 @@
-// Body
-$body-bg: #f8fafc;
 
-// Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+// fuentes
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+$font-family: 'Pontano Sans', sans-serif;
+
+// colores
+$azul: #4F46BA;
+$naranaja: #F9896B;
+$lila: #B08FF3;
+$azul_oscuro: #1B1C31;
+$gris: #F6F9FE;
+$gris_claro: #E4E9F9;
