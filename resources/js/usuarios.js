@@ -4,8 +4,11 @@ const app = new Vue({
 
   data: {
 
-    title: 'Serviticket',
-    titles: 'Home',
+    str_nombre_usuario:  '',
+    str_correo_usuario: '',
+    str_password_usuario: ''.
+    int_id_perfil: '',
+
 
   },
 
@@ -15,12 +18,7 @@ const app = new Vue({
 
   methods: {
 
-    // funcion que  agrega los titulos al card de cabecera
-    SetTitles: function(text){
 
-      app.titles = text;
-
-    },
 
     //funcion para guardar un usuario en la bd
     GrabarUsuario: function () {

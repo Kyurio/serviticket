@@ -1,10 +1,2 @@
-html {
-
-  background-color: #F6F9FE !important;
-
-}
-
-body {
-
-  
-}
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");body{background-color:#E4E9F9!important;font-family:"Source Sans Pro",sans-serif}a{color:black!important}button{background-color:#1B1C31!important;border-radius:15px!important}input{border-radius:15px!important}.nav-pills{min-height:100vh}.card{border-radius:15px}a.active{background-color:#1B1C31!important;color:#fff!important}.card-one{background-color:#1B1C31;color:#fff}.card-two{background-color:#1B1C31;color:#fff}.card-three{background-color:#1B1C31;color:#fff}.card-four{background-color:#1B1C31;color:#fff}
+/*# sourceMappingURL=style.css.map */
