@@ -11,12 +11,10 @@
   <tbody>
 
     <tr>
-
       <td scope="row">el nene</td>
       <td scope="row">el nene</td>
       <td scope="row">el nene</td>
       <td scope="row">el nene</td>
-
     </tr>
 
 

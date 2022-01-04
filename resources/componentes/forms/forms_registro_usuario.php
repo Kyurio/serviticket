@@ -1,5 +1,3 @@
-
-
 <div class="container">
   <div class="mb-5">
     <h6>Registro de usuarios</h6>

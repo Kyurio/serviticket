@@ -20,3 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// redirecciona al la web de compras
+Route::get('/comprar', function () {
+    return view('comprar');
+});
