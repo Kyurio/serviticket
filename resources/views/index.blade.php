@@ -1,157 +1,46 @@
-@extends('layouts.app')
+@extends('layouts.public')
 @section('content')
-<!-- import navbar -->
+<main>
 
-<!-- end import navbar -->
-  <div class="row">
+  <div class="container">
+    <div class="card mt-5 py-1">
+      <div class="card-body">
 
-    <!-- importa el sidevebar -->
-    <section class="col-md-1">
-      <!-- sidebar -->
-      @php
-      include( '../resources/componentes/navbs/sidebar.php');
-      @endphp
-      <!-- end sidebar -->
-    </section>
-    <!-- importa el sidevebar -->
+        <!-- carousel -->
+        <?php
+        require_once( '../resources/componentes/otros/carousel.php');
+        ?>
+        <!-- end carousel -->
 
-    <!-- contenido -->
-    <section class="col-md-11">
-
-      <!-- container con card cabecera -->
-      <div class="container">
-        <!-- cabecera -->
-        <div v-if="titles ==  'Home' ">
-          <!-- titulos -->
-          @php
-          include( '../resources/componentes/otros/dashboard.php');
-          @endphp
-          <!-- end titulos -->
-        </div>
-
-        <div v-else-if="titles == 'Eventos' ">
-          <!-- titulos -->
-          <div class="card mt-5 py-3">
-            <div class="card-body">
-
-              <div class="d-flex bd-highlight">
-
-                <!-- rirulo -->
-                <div class="p-2 flex-grow-1 bd-highlight">
-                  @{{ titles }}
-                </div>
-                <!-- end titulo -->
-
-                <!-- opciones -->
-                <div class="p-2 bd-highlight ">
-                  @php
-                  require_once( '../resources/componentes/navbs/navbar_eventos.php');
-                  @endphp
-                </div>
-                <!-- end opciones -->
-
-              </div>
-
-            </div>
-          </div>
-          <!-- end titulos -->
-        </div>
-
-        <div v-else>
-          <!-- titulos -->
-          <div class="card mt-5 py-3">
-            <div class="card-body">
-
-              <div class="d-flex bd-highlight">
-
-                <!-- rirulo -->
-                <div class="p-2 flex-grow-1 bd-highlight">
-                  @{{ titles }}
-                </div>
-                <!-- end titulo -->
-
-                <!-- opciones -->
-                <div class="p-2 bd-highlight ">
-                  <div v-if="titles ==  'Configuracion'">
-                    @php
-                    require_once( '../resources/componentes/navbs/navbar_configuracion.php');
-                    @endphp
-                  </div>
-
-                </div>
-                <!-- end opciones -->
-
-              </div>
-
-            </div>
-          </div>
-          <!-- end titulos -->
-        </div>
-        <!-- end cabecera -->
       </div>
-      <!-- end container card cabecera -->
-      <!-- continer card tabs contenido  -->
-      <div class="container">
-        <!-- contenido tabs -->
-        <div class="card mt-5 py-5">
-          <div class="card-body">
+    </div>
+  </div>
 
-            <!-- contenedor de componentes tabs -->
-            <div class="tab-content" id="myTabContent">
+  <div class="container">
+    <div class="mt-5 py-2">
 
-                  <!-- dashboard -->
-                  <div class="tab-pane fade show active animate__animated animate__fadeIn" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <!-- importa la tabla eventos -->
-                    <div class="container">
-                      @php
-                      require_once( '../resources/componentes/tablas/tabla_dashboard.php');
-                      @endphp
-                    </div>
-                    <!-- end import eventos -->
-                  </div>
-                  <!-- end dashboard -->
+      <!-- carousel -->
+      <?php
+      require_once( '../resources/componentes/otros/galeria.php');
+      ?>
+      <!-- end carousel -->
 
-                  <!-- eventos -->
-                  <div class="tab-pane fade animate__animated animate__fadeIn" id="eventos" role="tabpanel" aria-labelledby="eventos-tab">
-                    <!-- importa la tabla eventos -->
-                    <div class="container">
-                      @php
-                      require_once( '../resources/componentes/tabs/eventos.php');
-                      @endphp
-                    </div>
-                    <!-- end import eventos -->
-                  </div>
-                  <!-- end eventos -->
+    </div>
+  </div>
 
-                  <!-- notificaciones -->
-                  <div class="tab-pane fade animate__animated animate__fadeIn" id="notificaciones" role="tabpanel" aria-labelledby="notificaciones-tab">
-                  </div>
-                  <!-- end notificaciones -->
+  <div class="container">
+    <!-- carousel -->
+    <?php
+    require_once( '../resources/componentes/otros/spam.php');
+    ?>
+    <!-- end carousel -->
+  </div>
 
-                  <!-- configuracion -->
-                  <div class="tab-pane fade animate__animated animate__fadeIn" id="configuracion" role="tabpanel" aria-labelledby="configuracion-tab">
+  <!-- footer -->
+  <?php
+  require_once( '../resources/componentes/otros/footer.php');
+  ?>
+  <!-- end footer -->
 
-                    <div class="container">
-                      <!-- importa la tabla eventos -->
-                      @php
-                      require_once( '../resources/componentes/tabs/configuracion.php');
-                      @endphp
-                      <!-- end import eventos -->
-                    </div>
-
-                  </div>
-                  <!-- end configuracion -->
-
-            </div>
-            <!-- end tabs -->
-
-          </div>
-        </div>
-        <!-- end contenido tabs -->
-      </div>
-      <!-- end card contenido tabs  -->
-    </section>
-    <!-- end contenido -->
-
- <div>
+</main>
 @endsection

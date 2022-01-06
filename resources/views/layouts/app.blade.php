@@ -81,106 +81,7 @@
 
 </div>
 
-<!-- footer -->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <span class="footer-title">Product</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Plans & Prices</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Frequently asked questions</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <span class="footer-title">Company</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Job postings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">News and articles</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <span class="footer-title">Contact & Support</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link"><i class="fas fa-phone"></i>+47 45 80 80 80</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-comments"></i>Live chat</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-star"></i>Give feedback</a>
-          </li>
-        </ul>
-      </div>
-    </div>
 
-    <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
-
-    <div class="row text-center mt-5">
-      <div class="col-md-4 box">
-        <span class="copyright quick-links">Copyright &copy; Your Website <script>document.write(new Date().getFullYear())</script>
-        </span>
-      </div>
-      <div class="col-md-4 box">
-        <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 box">
-        <ul class="list-inline quick-links">
-          <li class="list-inline-item">
-            <a href="#">Privacy Policy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms of Use</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- end footer -->
 
 </body>
 
@@ -192,6 +93,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.3.3/sweetalert2.min.js" integrity="sha512-F3F53+tMh/CBxMQ60GN5R4EiFW7PcuND+9IDC3Qpkwc7SfxgzHigRdUO3+2+mNal2ot3Wp6KR0zx8r8BbsW+Bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Scripts -->
 <script src="/serv1ticket/resources/js/app.js" defer></script>
+<!-- extends -->
+<script src="/serv1ticket/resources/js/extends.js" defer></script>
+
 
 
 </html>

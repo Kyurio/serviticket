@@ -1,5 +1,4 @@
-.navbar {
-}
+
 
 .nav-pills {
 
@@ -50,13 +49,6 @@ a.active {
 
 
 // footer
-
-$link-light-grey: #6c757d;
-$primary-orange: #fec503; //before: fed136
-$footer-background-light-grey: #212529;
-$footer-background-grey: #1a1d20;
-$social-buttons-circle-dark-grey: #1a1d20;
-
 .col-md-4:nth-child(even) {
   // background: blue;
 }
@@ -64,25 +56,14 @@ $social-buttons-circle-dark-grey: #1a1d20;
   // background: red;
 }
 
-a {
-  color: $link-light-grey;
-}
-a:hover {
-  color: $primary-orange;
-  text-decoration: none;
-}
-
-::selection {
-  background: $primary-orange;
-  text-shadow: none;
-}
-
 footer {
+  border-top: shadow 12px red;
   padding: 2rem 0;
-  background-color: #212529;
-  // .container .row:not(:last-child) {
-  //   padding-bottom: 2rem;
-  // }
+  background-color: $azul_oscuro;
+  color: $blanco !important;
+  a {
+    color: $blanco !important;
+  }
 }
 
 .footer-column:not(:first-child) {
@@ -105,7 +86,7 @@ footer {
     span.footer-title {
       font-size: 14px;
       font-weight: 700;
-      color: #fff;
+      color: $blanco;
       text-transform: uppercase;
     }
     .fas {
@@ -143,7 +124,7 @@ ul.social-buttons li a {
   color: #fff;
   border-radius: 100%;
   outline: 0;
-  background-color: $footer-background-grey;
+  background-color: $blanco;
 }
 
 footer .quick-links {
@@ -151,14 +132,51 @@ footer .quick-links {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .copyright {
-  color: white;
+  color: $blanco;
 }
 
 .fa-ellipsis-h {
   color: white;
   padding: 2rem 0;
+}
+
+.presetacion {
+  height: 400px !important
+}
+
+.card-shadow{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, transparent), to(rgba(0, 9, 16, 0.9)));
+  background: linear-gradient(to bottom, transparent 40%, rgba(0, 9, 16, 0.9));
+}
+
+//navbar
+
+.navbar-public {
+
+  background-color: $azul_oscuro !important;
+  padding: 30px;
+
+}
+
+//botones redondos
+.redondo{
+  width: 25px;
+  height: 25px;
+}
+
+
+.btn-large {
+
+  width: 400px;
+  height: 50px;
+
 }

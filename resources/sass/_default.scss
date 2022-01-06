@@ -11,12 +11,19 @@ a {
 }
 
 button {
-  background-color: $azul_oscuro !important;
   border-radius: 15px !important;
 }
 
 input {
 
   border-radius: 15px !important;
+
+}
+
+h2 {
+
+  font-family: $font-family;
+  font-size: 50px;
+  font-weight: 900;
 
 }

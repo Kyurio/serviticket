@@ -25,3 +25,19 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/comprar', function () {
     return view('comprar');
 });
+
+
+// abre el detalle de el evento seleccionado
+Route::get('/evento', function () {
+    return view('evento');
+});
+
+// abre el intranet de el evento seleccionado
+Route::get('/intranet', function () {
+    return view('intranet');
+});
+
+// abre la opcion de comprar
+Route::get('/comprar', function () {
+    return view('comprar');
+});
